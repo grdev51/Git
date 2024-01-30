@@ -1,0 +1,8 @@
+import hashlib
+
+# Message to be hashed
+message = "poordarts twiglet"
+
+# Using SHA256 to hash the message
+hash_result = hashlib.sha256(message.encode()).hexdigest()
+hash_result
